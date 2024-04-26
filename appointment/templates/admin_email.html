@@ -1,0 +1,12 @@
+<div>
+  <h3>Hello {{user.first_name}} {{user.last_name}}</h3>
+  <p>
+    Your Online appointment with {{doctor.user.first_name}}
+    {{doctor.user.last_name}} is running. Your doctor is waiting for you.
+    Please join the bellow link.
+  </p>
+  <p>
+    Your link:
+    <a target="_blank" href="{{doctor.meet_link}}">{{doctor.meet_link}}</a>
+  </p>
+</div>
